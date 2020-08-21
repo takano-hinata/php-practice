@@ -1,26 +1,31 @@
 <?php
 
 echo 'hello php!';
+echo "\n";
 
 $a = 3;
 $b = 7;
 
 echo $a + $b;
+echo "\n";
 
 $array_month = ["１月","２月","３月","４月","５月","６月","７月","８月","９月","１０月","１１月","１２月"];
 
 echo $array_month[7];
+echo "\n";
 
 $hello = "Hello,";
 $name = "hinata";
 $world = "'s World!";
 
 echo $hello.$name.$world;
+echo "\n";
 
 $tech_boost = "tech";
 $tech_boost .= " boost";
 
 echo $tech_boost;
+echo "\n";
 
 
 $calendar_2018 = [
@@ -40,3 +45,6 @@ $calendar_2018 = [
 
 
 echo $calendar_2018["December"];
+
+
+
